@@ -2,10 +2,10 @@ const EmailProvider = {
   default: "mailgun",
   drivers: {
     mailgun: {
-      api_key: "key-de4582feecd40bce619439a152ce7d23",
-      domain: "mailing.webfirminfotech.com",
-      from_email: "Info@newcastleschooluk.com",
-      from_name: process.env.MAIL_FROM_NAME || "HRMS-AI",
+      api_key: process.env.MAILGUN_API_KEY,
+      domain: process.env.MAILGUN_DOMAIN,
+      from_email: process.env.MAILGUN_FROM_EMAIL,
+      from_name: process.env.MAIL_FROM_NAME || "",
     },
   },
 };
