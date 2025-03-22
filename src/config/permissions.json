@@ -1,0 +1,52 @@
+[
+    {
+        "module_name": "tenant",
+        "permissions": [
+            {
+                "name": "tenant.add",
+                "display_name": "Add Tenant",
+                "description": "Allows adding a tenant"
+            },
+            {
+                "name": "tenant.edit",
+                "display_name": "Edit Tenant",
+                "description": "Allows editing a tenant"
+            },
+            {
+                "name": "tenant.delete",
+                "display_name": "Delete Tenant",
+                "description": "Allows deleting a tenant"
+            },
+            {
+                "name": "tenant.view",
+                "display_name": "View Tenant",
+                "description": "Allows viewing tenant details"
+            }
+        ]
+    },
+    {
+        "module_name": "user",
+        "permissions": [
+            {
+                "name": "user.add",
+                "display_name": "Add User",
+                "description": "Allows adding a user"
+            },
+            {
+                "name": "user.edit",
+                "display_name": "Edit User",
+                "description": "Allows editing a user"
+            },
+            {
+                "name": "user.delete",
+                "display_name": "Delete User",
+                "description": "Allows deleting a user"
+            },
+            {
+                "name": "user.view",
+                "display_name": "View User",
+                "description": "Allows viewing user details"
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "superadmin",
+        "description": "Superadmin has full access to tenant module.",
+        "permissions": [
+            "tenant.add",
+            "tenant.edit",
+            "tenant.delete",
+            "tenant.view"
+        ]
+    },
+    {
+        "name": "company_admin",
+        "description": "Company Admin has full access to user management.",
+        "permissions": [
+            "user.add",
+            "user.edit",
+            "user.delete",
+            "user.view"
+        ]
+    }
+]
