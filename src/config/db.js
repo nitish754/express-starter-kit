@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const DB_URL = process.env.DB_URL || "mongodb+srv://root:QBUBMlwz4QAL7Lrq@firstcluster.m0afvax.mongodb.net/hrms_AI?retryWrites=true&w=majority&appName=firstcluster";
+const DB_URL = process.env.DB_URL || "";
 const JWT_TOKEN = "";
 
 const connectToDB = async () => {
