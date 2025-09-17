@@ -19,6 +19,8 @@ const PORT = process.env.PORT || 3000;
 
 // comment 1
 
+// comment 2
+
 // Initiate connection to the database
 connectToDB();
 
