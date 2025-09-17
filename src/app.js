@@ -17,6 +17,8 @@ const responseHelper = require('./utils/responseHelper');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// comment 1
+
 // Initiate connection to the database
 connectToDB();
 
